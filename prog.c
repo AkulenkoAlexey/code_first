@@ -20,8 +20,16 @@ int main() {
 
     // Запись заголовка файла .cfg
     fprintf(cfgFile, "Stanciya 110/35/6,BINOM337 N10000208,12.04.2024\n");
-    fprintf(cfgFile, "1,1A,0D\n");
-    fprintf(cfgFile, "1,Ia,,0,A,1,0,0,-80000,80000,57.735,57.735,S\n");
+    fprintf(cfgFile, "6,6A,6D\n");
+    fprintf(cfgFile, "1,Ia,,0,A,1,0,0,-11000,11000,57.735,57.735,S\n");
+    fprintf(cfgFile, "2,Ib,,0,A,1,0,0,-11000,11000,57.735,57.735,S\n");
+    fprintf(cfgFile, "3,Ic,,0,A,1,0,0,-11000,11000,57.735,57.735,S\n");
+    fprintf(cfgFile, "4,Ua,,0,A,1,0,0,-11000,11000,57.735,57.735,S\n");
+    fprintf(cfgFile, "5,Ub,,0,A,1,0,0,-11000,11000,57.735,57.735,S\n");
+    fprintf(cfgFile, "6,Uc,,0,A,1,0,0,-11000,11000,57.735,57.735,S\n");
+    fprintf(cfgFile, "1,Pysk MTZ1,,,1\n");
+    fprintf(cfgFile, "2,Pysk MTZ2,,,1\n");
+    fprintf(cfgFile, "3,Pysk TO,,,1\n");
     fprintf(cfgFile, "50.000000\n");
     fprintf(cfgFile, "1\n");
     fprintf(cfgFile, "-80000,80000\n");
